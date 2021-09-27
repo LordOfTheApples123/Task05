@@ -75,6 +75,7 @@ public class Main {
 
     public static void main(String[] args) {
         int w, s, h, k;
+        out("Same thing but bugs fixed");
         out("Введите переменные в порядке W S H>> ");
         Scanner in = new Scanner(System.in);
         w = in.nextInt();
