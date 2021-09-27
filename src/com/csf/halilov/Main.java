@@ -35,7 +35,7 @@ public class Main {
                 k++;
             }
             for (int i = 1; i <= s; i++) {
-                if (k == w + 2) {
+                if (k == w - 2) {
                     break;
                 }
                 out(" ");
@@ -53,7 +53,7 @@ public class Main {
         out("|");
         while (k != w - 2) {
             for (int i = 1; i <= s; i++) {
-                if (k == w + 2) {
+                if (k == w - 2) {
                     break;
                 }
                 out(" ");
@@ -75,6 +75,7 @@ public class Main {
 
     public static void main(String[] args) {
         int w, s, h, k;
+        out("Same thing but bugs fixed");
         out("Введите переменные в порядке W S H>> ");
         Scanner in = new Scanner(System.in);
         w = in.nextInt();
@@ -83,7 +84,7 @@ public class Main {
         FirstAndLastLine(w);
         k = 0;
         if(h !=1){
-            while (k != h + 2) {
+            while (k != h - 2) {
                 for (int i = 1; i <= s; i++) {
                     if (k == h - 2) {
                         break;
